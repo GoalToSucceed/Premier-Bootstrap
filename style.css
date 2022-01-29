@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    overflow-x: hidden;   
+}
+
+nav{
+    font-family: 'Playfair Display', serif;
+}
+
+nav #logo {
+    font-family: 'Stencil Std', fantasy;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Stencil Std', fantasy;
+    color: white;
+    
+}
+
+.premierTrait {
+    height: 1px;
+    width: 30%;
+    margin: -3px auto;
+    background-color: black ;
+    box-shadow: 1px 3px 2px black                   
+}
+
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    transition: 0.5s;
+    vertical-align: auto;
+    background: black;
+    float: left;
+}
+
+.box:hover{
+    height: 400px;
+}
+
+.box .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;   
+}
+
+.box .imgBx img {
+    max-width: 100%;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+
+.box:hover .imgBx img{
+    opacity: 1;
+}
+
+
+.box .content {
+    position: absolute;
+    bottom: 0;
+    left: 85px;
+    right: 85px;
+    bottom: 85px;
+    height: 85px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.box:hover .content {
+    opacity: 1;
+}
+
+.box .content h2{
+     font-size: 20px;
+     color: white;
+     font-weight: 500;
+     line-height: 20px;
+     letter-spacing: 1px;
+     text-align: center;
+     font-family: sans-serif;
+}
+.box .content h2 span{
+    font-size: 14px;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+                             /* BOX2 */
+
+
+
+
+.box2 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    transition: 0.5s;
+    vertical-align: auto;
+    background: black;
+    float: right;
+}
+
+.box2:hover{
+    height: 400px;
+}
+
+.box2 .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;   
+}
+
+.box2 .imgBx img {
+    max-width: 100%;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+
+.box2:hover .imgBx img{
+    opacity: 1;
+}
+
+
+
+
+.box2 .content {
+    position: absolute;
+    bottom: 0;
+    left: 85px;
+    right: 85px;
+    bottom: 85px;
+    height: 85px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.box2:hover .content {
+    opacity: 1;
+}
+
+.box2 .content h2{
+     font-size: 20px;
+     color: white;
+     font-weight: 500;
+     line-height: 20px;
+     letter-spacing: 1px;
+     text-align: center;
+     font-family: 'Stencil Std', fantasy;
+}
+.box2 .content h2 span{
+    font-size: 14px;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.box, .box2{
+   box-shadow: 9px -6px 13px 1px rgba(255, 255, 255, 0.493);
+}
+
+
+                                                            /* tableau */
+
+.table {
+    background-color: black;
+    float: center;
+    padding: 200px;
+    margin: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.tableau h2 { 
+    text-align: center;
+    font-family: 'Stencil Std', fantasy;
+    color: white;
+}
+
+.tableau .deuxiemeTrait {
+    height: 1px;
+    width: 30%;
+    margin: -3px auto;
+    background-color: black ;
+    box-shadow: 1px 3px 2px black;                
+}
+
+.carousel-inner{
+    border-radius: 20px;
+}
+
+.carousel-item p{
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.carousel-item h5{
+    color: black;
+    font-family: 'Stencil Std', fantasy;
+}
